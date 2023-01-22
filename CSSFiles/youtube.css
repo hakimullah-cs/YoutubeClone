@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-main .left-side .menu-icon{
+    border-radius: 50%;
+    padding: 0 2px;
+    transition: all 0.234s ease-in-out;
+}
+.navbar-main .left-side .menu-icon:hover{
+    background:#666;
+}
+#search::placeholder{
+    color: #fff !important;
+}
