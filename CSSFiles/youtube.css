@@ -33,6 +33,7 @@ body{
     border:1px solid grey !important;
     border-top-left-radius: 2rem;
     border-bottom-left-radius: 2rem;
+    background:transparent;
 }
 .navbar-main .center .input-group span{
     border:1px solid grey !important;
