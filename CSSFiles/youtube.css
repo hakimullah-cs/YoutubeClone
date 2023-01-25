@@ -10,6 +10,7 @@ html{
 body{
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
+    background: #000;
 }
 /* ------------- Header Styling Start-------------- */
 .navbar-main .left-side .menu-icon{
@@ -26,10 +27,22 @@ body{
 }
 .navbar-main .left-side .menu-icon:hover{
     background:#666;
+    cursor: pointer;
+}
+.navbar-main .center #search{
+    border:1px solid grey !important;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+.navbar-main .center .input-group span{
+    border:1px solid grey !important;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
 }
 #search::placeholder{
     color: #fff !important;
 }
+
 /* ------------- Header Styling End-------------- */
 
 /* ------------- Sidebar Styling Start-------------- */
@@ -42,16 +55,13 @@ body{
     top: 66px;
     overflow-y: auto;
     padding: 1rem 0.5rem;
-    transform: translateX(-100%);
     transition: all 0.3s ease-in-out;
-    z-index: 9999;
+    z-index:9999;
 }
-.sidebar.active{
-    transform: translateX(0);
-}
+
 .sidebar .navbar-list .nav-link{
     display:inline-block;
-   padding-right: 50px;
+   padding-right: 5px;
    border-radius: 9px;
    transition: all 0.234s ease-in-out;
 }
@@ -60,6 +70,9 @@ body{
 }
 .sidebar .navbar-list .nav-link:hover{
     background:#333;
+}
+.sidebar .nav-link .navlink-text.active{
+    display: none;
 }
  
 hr{
@@ -76,7 +89,7 @@ hr{
     position: absolute;
     right: 4rem;
     top: 0.5rem;
-    z-index: 999;
+    z-index: 1000;
     border-radius: 8px;
     padding: 1rem 0.5rem;
     display: none;
