@@ -72,8 +72,11 @@ body{
 .sidebar .navbar-list .nav-link:hover{
     background:#333;
 }
-.sidebar .nav-link .navlink-text.active{
+.sidebar .nav-link .navlink-text{
     display: none;
+}
+.sidebar .nav-link .navlink-text.active{
+    display: block;
 }
  
 hr{
