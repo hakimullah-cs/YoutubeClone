@@ -6,8 +6,8 @@
     <title>Youtube Clone</title>
     <link rel="icon" type="image" href="/Images/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="/CSSFiles/youtube.css">
-    <link rel="stylesheet" href="/CSSFiles/youtubeResponsive.css">
+    <link rel="stylesheet" href="./CSSFiles/youtube.css">
+    <link rel="stylesheet" href="./CSSFiles/youtubeResponsive.css">
   </head>
   <body class="text-light">
     <!-- ---------------- Header Start------------ -->
@@ -19,7 +19,7 @@
                     <ion-icon name="menu-outline" class="" id="menu-icon"></ion-icon>
                    </div>
                    <div class="logo">
-                    <a href="#"><img src="/Images/logo1.png" alt="" style="width: 65px; height: 50px;"></a>
+                    <a href="#"><img src="./Images/logo1.png" alt="" style="width: 65px; height: 50px;"></a>
                     <span class="fw-bold">Youtube<sup>PK</sup></span>
                    </div>
                     
@@ -42,7 +42,7 @@
                     <ion-icon name="notifications-outline" class="fs-3 fw-light"></ion-icon>
                    </div>
                    <div class="profile">
-                    <img src="/Images/Profile.jpeg" alt="profileimg" id="profile-pic" style="width: 40px; height: 40px; border-radius: 50%;">
+                    <img src="./Images/Profile.jpeg" alt="profileimg" id="profile-pic" style="width: 40px; height: 40px; border-radius: 50%;">
 
                    </div>
                 </div>
@@ -51,59 +51,14 @@
     </header>
     <!-- ---------------- Header End------------ -->
 
-    <!-- ------------------ Sidebar Start--------------- -->
-    <div class="sidebar">
-      <ul class="navbar-list nav flex-column">
-        <li class="nav-item">
-          <a href="#" class="nav-link text-white d-flex align-items-center gap-2 active" style="background: #333;"><ion-icon name="home-outline" class="fs-4 me-2"></ion-icon> <span class="navlink-text">Home</span></a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link text-white d-flex align-items-center gap-2"><ion-icon name="pause-circle-outline" class="fs-4"></ion-icon> <span class="navlink-text">Shorts</span></a>
-        </li>
-        <li class="nav-item mb-2">
-          <a href="#" class="nav-link text-white d-flex align-items-center gap-2"><ion-icon name="easel-outline" class="fs-4"></ion-icon> <span class="navlink-text">Subscriptions</span></a>
-        </li>
-        <hr>
-        <li class="nav-item">
-          <a href="#" class="nav-link text-white d-flex align-items-center gap-2"><ion-icon name="library-outline" class="fs-4"></ion-icon> <span class="navlink-text">Library</span></a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link text-white d-flex align-items-center gap-2"><ion-icon name="time-outline" class="fs-4"></ion-icon> <span class="navlink-text">History</span></a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link text-white d-flex align-items-center gap-2"><ion-icon name="videocam-outline" class="fs-4"></ion-icon> <span class="navlink-text">Your Videos</span></a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link text-white d-flex align-items-center gap-2"><ion-icon name="timer-outline" class="fs-4"></ion-icon> <span class="navlink-text">Wtach Later</span></a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link text-white d-flex align-items-center gap-2"><ion-icon name="chevron-down-outline" class="fs-4"></ion-icon> <span class="navlink-text">See More</span></a>
-        </li>
-        <hr>
-        <li class="nav-item">
-          <a href="#" class="nav-link text-white d-flex align-items-center gap-2"><ion-icon name="settings-outline" class="fs-4"></ion-icon> <span class="navlink-text">Settings</span></a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link text-white d-flex align-items-center gap-2"><ion-icon name="flag-outline" class="fs-4"></ion-icon> <span class="navlink-text">Report History</span></a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link text-white d-flex align-items-center gap-2"><ion-icon name="help-outline" class="fs-4"></ion-icon> <span class="navlink-text">Help</span></a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link text-white d-flex align-items-center gap-2"><ion-icon name="alert-outline" class="fs-4"></ion-icon> <span class="navlink-text">Send feedback</span></a>
-        </li>
-        <!-- <hr> -->
-       
-      </ul>
-    </div>
-    <!-- ------------------ Sidebar End--------------- -->
+     <!-- ------------------ Sidebar End--------------- -->
     <div class="profile-info">
       <div class="close-icon d-sm-none">
         <ion-icon name="close-outline" id="close"></ion-icon>
       </div>
        <div class="profile-content d-flex gap-3">
         <div class="profile-pic">
-          <img src="/Images/Profile.jpeg" alt="" class="img-fluid" style="width: 40px; height: 40px; border-radius: 50%;">
+          <img src="./Images/Profile.jpeg" alt="" class="img-fluid" style="width: 40px; height: 40px; border-radius: 50%;">
         </div>
         <!-- <h1>Hello</h1> -->
         <div class="text">
@@ -163,10 +118,63 @@
       
     </div>
 
+    <!-- ------------------ Sidebar Start--------------- -->
+    <div class="d-flex">
+    <div class="sidebar">
+      <ul class="navbar-list nav flex-column">
+        <li class="nav-item">
+          <a href="#" class="nav-link text-white d-flex align-items-center gap-2 active" style="background: #333;"><ion-icon name="home-outline" class="fs-4 me-2"></ion-icon> <span class="navlink-text">Home</span></a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link text-white d-flex align-items-center gap-2"><ion-icon name="pause-circle-outline" class="fs-4"></ion-icon> <span class="navlink-text">Shorts</span></a>
+        </li>
+        <li class="nav-item mb-2">
+          <a href="#" class="nav-link text-white d-flex align-items-center gap-2"><ion-icon name="easel-outline" class="fs-4"></ion-icon> <span class="navlink-text">Subscriptions</span></a>
+        </li>
+        <hr>
+        <li class="nav-item">
+          <a href="#" class="nav-link text-white d-flex align-items-center gap-2"><ion-icon name="library-outline" class="fs-4"></ion-icon> <span class="navlink-text">Library</span></a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link text-white d-flex align-items-center gap-2"><ion-icon name="time-outline" class="fs-4"></ion-icon> <span class="navlink-text">History</span></a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link text-white d-flex align-items-center gap-2"><ion-icon name="videocam-outline" class="fs-4"></ion-icon> <span class="navlink-text">Your Videos</span></a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link text-white d-flex align-items-center gap-2"><ion-icon name="timer-outline" class="fs-4"></ion-icon> <span class="navlink-text">Wtach Later</span></a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link text-white d-flex align-items-center gap-2"><ion-icon name="chevron-down-outline" class="fs-4"></ion-icon> <span class="navlink-text">See More</span></a>
+        </li>
+        <hr>
+        <li class="nav-item">
+          <a href="#" class="nav-link text-white d-flex align-items-center gap-2"><ion-icon name="settings-outline" class="fs-4"></ion-icon> <span class="navlink-text">Settings</span></a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link text-white d-flex align-items-center gap-2"><ion-icon name="flag-outline" class="fs-4"></ion-icon> <span class="navlink-text">Report History</span></a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link text-white d-flex align-items-center gap-2"><ion-icon name="help-outline" class="fs-4"></ion-icon> <span class="navlink-text">Help</span></a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link text-white d-flex align-items-center gap-2"><ion-icon name="alert-outline" class="fs-4"></ion-icon> <span class="navlink-text">Send feedback</span></a>
+        </li>
+        <!-- <hr> -->
+       
+      </ul>
+    </div>
+    <div class="main-content mt-2" id="main">
+     <?php include 'main_content.php'; ?>
+</div>
+    <!-- ./sidebar -->
+    
+   
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-<script src="/JSFiles/youtube.js"></script>
+<script src="./JSFiles/youtube.js"></script>
   </body>
 </html>

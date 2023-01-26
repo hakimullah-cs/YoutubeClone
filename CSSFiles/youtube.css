@@ -57,7 +57,7 @@ body{
     overflow-y: auto;
     padding: 1rem 0.5rem;
     transition: all 0.3s ease-in-out;
-    z-index:9999;
+    z-index:10 !important;
 }
 
 .sidebar .navbar-list .nav-link{
@@ -93,7 +93,7 @@ hr{
     position: absolute;
     right: 4rem;
     top: 0.5rem;
-    z-index: 1000;
+    z-index:12 !important;
     border-radius: 8px;
     padding: 1rem 0.5rem;
     display: none;
@@ -111,3 +111,12 @@ hr{
     font-size: 1rem;
 }
 
+.main-content{
+    margin-left: 70px !important;
+    /* width: 100%; */
+    transition: all 0.3s ease-in-out;
+}
+.main-content.apply{
+    margin-left: 185px !important;
+    /* width: 75%; */
+}

@@ -5,6 +5,8 @@ const menuicon=document.getElementById('menu-icon');
 let sidebar=document.querySelector('.sidebar');
 const navlinktext=document.querySelectorAll('.navlink-text');
 const navlink=document.querySelectorAll('.nav-link');
+const maincontainer=document.getElementById('main');
+console.log(maincontainer);
 
 
 
@@ -17,6 +19,7 @@ close.addEventListener('click',()=>{
 });
 
 menuicon.addEventListener('click',()=>{
+    maincontainer.classList.toggle('apply');
 navlinktext.forEach((ele)=>{
     ele.classList.toggle("active");
 });

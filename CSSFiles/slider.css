@@ -1,0 +1,15 @@
+.main-container {
+  max-width: 1200px;
+  position: relative;
+  overflow-x: hidden;
+}
+.tabs-box {
+  list-style-type: none;
+  flex-wrap: nowrap !important;
+  overflow-x: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.tabs-box .tab.active {
+  background: #eee !important;
+  color: black !important;
+}
